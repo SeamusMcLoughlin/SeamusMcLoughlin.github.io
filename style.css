@@ -1,0 +1,104 @@
+body 
+{
+	background-image: url("stardust.png");
+	font-family: 'Cabin', sans-serif; /* We will use font Cabin from google fonts */
+}
+#wrap_body_all
+{
+	margin-right: auto;
+}
+#logo
+{
+	background-color: #128870;
+	color:white;
+	padding: 0.6%;
+	margin-top: 1%;
+	margin-bottom: 1.5%;
+	height: 10em;
+    clear:both;
+}
+#logoL
+{
+	float:left;
+	padding: 1%;
+	width: 8%;
+	text-align: center;
+	border-right: 0.15em solid #cccccc;
+}
+#logoR
+{
+	float:left;
+	padding: 1%;
+	width: 50%;
+	font-size: 400%;
+	text-align:center;
+	font-weight: 700;
+	letter-spacing: 0.28em;
+}
+#menu
+{
+	float: right;
+    background-color: #303030;
+	margin-top: 1%;
+	color: #ffffff;
+	padding: 0.5%;
+    clear:both;
+	
+}
+.option
+{
+	float: left;
+	min-width: 6%;
+	height: 1.6%;
+	font-size: 110%;
+	padding: 0.5em;
+	border-right: 0.15em solid #444444;
+	opacity: 0.8; /* Opacity in 80% */
+}
+.option:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+#copyright
+{
+	background-color: #307030;
+	margin-top: 1%;
+	color: #ffffff;
+	text-align: center;
+	padding: 1%;
+	clear:both;
+}
+.blocks:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+#footerAddresss
+{
+	float:left;
+	padding: 1%;
+	width: 20%;
+	text-align: center;
+}
+#footerMotto
+{
+	float:left;
+	padding: 1%;
+    width: 40%;
+	font-size: 1em;
+	text-align:center;
+	font-weight: 700;/* This is not to be confused with Pixels, ems or % , instead it's the weight of the bold text */
+	letter-spacing: 0.28em; /* Set space between letter for 0.28ems */
+}
+#footerUpdates
+{
+	float:left;
+	padding: 1%;
+	width: 20%;
+	text-align: center;
+}
+#footerPage
+{
+    text-align: center;
+}
