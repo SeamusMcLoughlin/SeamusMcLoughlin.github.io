@@ -1,6 +1,6 @@
 body 
 {
-	background-image: url("stardust.png");
+	background-image: url("../images/watertile.jpg");
 	font-family: 'Cabin', sans-serif; /* We will use font Cabin from google fonts */
 }
 #wrap_body_all
@@ -9,7 +9,7 @@ body
 }
 #logo
 {
-	background-color: #128870;
+	background-color: #7D1935;/*Previous colour 128870*/
 	color:white;
 	padding: 0.6%;
 	margin-top: 1%;
@@ -27,7 +27,7 @@ body
 }
 #logoR
 {
-	float:left;
+	float:right;
 	padding: 1%;
 	width: 50%;
 	font-size: 400%;
@@ -40,7 +40,8 @@ body
 	float: right;
     background-color: #303030;
 	margin-top: 1%;
-	color: #ffffff;
+	color: #7D1935;
+	font-weight: 700;
 	padding: 0.5%;
     clear:both;
 	
@@ -51,6 +52,7 @@ body
 	min-width: 6%;
 	height: 1.6%;
 	font-size: 110%;
+	font-weight: 700;
 	padding: 0.5em;
 	border-right: 0.15em solid #444444;
 	opacity: 0.8; /* Opacity in 80% */
@@ -62,7 +64,7 @@ body
 }
 #copyright
 {
-	background-color: #307030;
+	background-color: #4A96AD;/* previous colour == 307030 */
 	margin-top: 1%;
 	color: #ffffff;
 	text-align: center;
@@ -77,23 +79,33 @@ body
 #footerAddresss
 {
 	float:left;
-	padding: 1%;
+	color: #7D1935;	
 	width: 20%;
 	text-align: center;
 }
 #footerMotto
 {
 	float:left;
+	color: #7D1935;
 	padding: 1%;
-    width: 40%;
-	font-size: 1em;
+    width: 50%;
 	text-align:center;
 	font-weight: 700;/* This is not to be confused with Pixels, ems or % , instead it's the weight of the bold text */
 	letter-spacing: 0.28em; /* Set space between letter for 0.28ems */
 }
+#footerMottoEnglish {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  transition-duration: 5s;
+}
+#footerMottoEnglish:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
 #footerUpdates
 {
-	float:left;
+	float:right;
+	color: #7D1935;
 	padding: 1%;
 	width: 20%;
 	text-align: center;
@@ -101,4 +113,11 @@ body
 #footerPage
 {
     text-align: center;
+	background-color: #4A96AD;/*Previous colour 128870*/
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	height: 8em;
+    clear:both;
+	opacity: 0.8;
 }
